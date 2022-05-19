@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+}
+main img{
+    width: 101%;
+}
+footer {
+    background-color: gray; 
+    margin: -5px;
+} 
+.desk{
+    width: 20%;
+    margin: 60px 50px;
+    border-radius: 50%;
+    border: 10px solid #3e3e3e;
+}
+.Graphic{
+    width: 20%;
+    margin: 60px 50px;
+    border-radius: 50%;
+    border: 10px solid #3e3e3e;
+}
+.Person{
+    width: 20%;
+    margin: 60px 50px;
+    border-radius: 50%;
+    border: 10px solid #3e3e3e;
+}
+
