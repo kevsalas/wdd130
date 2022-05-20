@@ -1,19 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,200&family=Oxygen+Mono&display=swap');
+
+
+
 body{
     background-color: skyblue;
+    font-family: "Oxygen Mono", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-content{
+#content{
     max-width: 1600px;
 }
 #content{
     margin: 0 auto;
+    
 }
 header{
     background-color: silver;
+    font-family: "Newsreader", Helvetica ,sans-serif;
+}
+#hero-img {
+    width: 100%;
 }
 nav a{
     text-align: center;
-    color: green;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -35,6 +48,10 @@ nav a:hover{
     background-color: deepskyblue;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: lightpink;
@@ -45,21 +62,31 @@ nav a:hover{
 }
 .msg{
     background-color: greenyellow;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: tomato;
+    font-family: "Newsreader", "Helvetica", "sans-serif";
+    padding-bottom: 15px;
 }
 footer{
     background-color: pink;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-tittle{
     color: royalblue;
+    font-family: "Newsreader", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: red;
 }
 .msg p{
     color: black;
+    font-size: 2em;
 }
 footer h3{
     color: rebeccapurple;
@@ -76,7 +103,26 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 footer h3 a:hover{
     text-decoration: underline;
+}
+h2{
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
