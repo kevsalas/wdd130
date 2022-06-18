@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,200&family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,300&family=Spline+Sans+Mono:wght@300&display=swap');
 
 
 
 body{
-    background-color: skyblue;
-    font-family: "Oxygen Mono", Helvetica, sans-serif;
+    background-color: rgba(54, 199, 192, 0.404);
+    font-family: "Spline Sans Mono", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -197,7 +197,6 @@ nav {
 .river-headline{
     grid-column: 2/4;
     grid-row: 2/4;
-    margin: -50px;
 }
 
 .river {
@@ -214,11 +213,14 @@ nav {
     justify-content: center;
     grid-column: 2/4;
     grid-row: 3/6;
-    color: snow;
+    color: rgba(0, 0, 0, 0.8)
 }
-
+.rafting {
+    color:rgb(0, 0, 0);
+}
 .Family {
     display: flex;
+    color: rgb(14, 108, 172);
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
@@ -227,6 +229,7 @@ nav {
 
 .funny {
     display: flex;
+    color:rgb(14, 108, 172);
     justify-content: flex-end;
     flex-direction: column;
     align-items: flex-end;
@@ -240,7 +243,7 @@ nav {
     width: 50%;
 }
 .headline {
-    margin-top: -600px;
+    margin-top: -200px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
