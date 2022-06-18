@@ -196,14 +196,51 @@ nav {
 }
 .river-headline{
     grid-column: 2/4;
+    grid-row: 2/4;
+    margin: -50px;
 }
 
 .river {
     grid-column: 2/4;
     margin-top: 100px;
 }
+.river {
+    display: flex;
+    justify-content: center;
+}
 .river_text {
-    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2/4;
+    grid-row: 3/6;
+    color: snow;
+}
+
+.Family {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    float: left;
+}
+
+.funny {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.Family p {
+    width: 50%;
+
+}
+.funny p {
+    width: 50%;
+}
+.headline {
+    margin-top: -600px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
