@@ -188,6 +188,23 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 100px;
+}
+.river-headline{
+    grid-column: 2/4;
+}
+
+.river {
+    grid-column: 2/4;
+    margin-top: 100px;
+}
+.river_text {
+    z-index: -1;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
