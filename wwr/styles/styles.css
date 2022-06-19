@@ -246,7 +246,7 @@ nav {
     margin-top: -200px;
 }
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
