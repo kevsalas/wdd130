@@ -20,26 +20,34 @@
             </nav>
         </header>
         <div id="page_name">
-            <h1>Creating</h1>
+            <h1>Beyond Limits</h1>
             <p>Our mission is to provide to the client our best effort to guaranty the succes of the client
                 at the moment that want to take the step of creating their own proyect and giving the neccesary
                 materials to make it more confortable.
             </p>
         </div>
-        <main class="home-grid">
-            <div id="text_list">
-                <h3>Here are the new proyects that our community is creating along with the latest projects
-                    of our users that want to share their inventions
-                </h3>
-                <!-- Remember to add images of the proyects -->
-                <section id="proyects">
-                    <img src="#" alt="proyect1">
-                    <img src="#" alt="proyect2">
-                    <img src="#" alt="proyect3">
-                    <img src="#" alt="proyect4">
-                    <img src="#" alt="proyect5">
-                </section>
+        <main class="contact">
+            <div id="feedback"></div>
+            <form action="/my-future-email" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-Mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
         </main>
+            </form>
             <footer>
                 <h3>Beyond Limits &copy; 2022</h3>
                 <h3>You have more questions?</h3>
@@ -49,13 +57,23 @@
                     <a href="https://facebook.com" target="_blank">
                         <img src="images/facebook.png" alt="facebook_icon">
                     </a>
-                    <a href="https://facebook.com" target="_blank">
+                    <a href="https://twitter.com" target="_blank">
                         <img src="images/twitter.png" alt="Elon_Twitter_Musk_icon">
                     </a>
                     
                 </div>
             </footer>
     </div>
+    <script>
+        const feedbackElement = document.getElementById("feedback");
+        const formElement = document.forms[0];
+        formElement.addEventListener("submit",function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = "Hello " + formElement.user_name.value + " !Thanks you for your message. We receive your message and we will reply back to you as soon as posibble!";
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle("moveDown");
+        });
+    </script>
     
 </body>
 </html>
