@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Palanquin+Dark&display=swap');
 
 body {
-    background-color: lavender;
+    background-color: #26b3d3;
 }
 
 .logo {
@@ -17,32 +17,63 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: moccasin;
+    font-family: "Kdam Thmor Pro","Helvetica","sans-serif";
 }
 nav {
     display: flex;
     justify-content: space-around;
     font-size: 18px;
 }
+h1 {
+    font-family: "Kdam Thmor Pro", "Helvetica", "sans-serif";
+    color: #b3e24d;
+}
+p {
+    font-family: "Palanquin Dark", "Helvetica", "sans-serif";
+    color: #b3e24d;
+}
 nav a {
     text-align: center;
     padding: 75px;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: aqua;
 }
 #page_name {
     text-align: center;
+    font-size: 30px;
+}
+#page_name p {
+    display: grid;
+    padding: 50px;
+    font-size: 25px;
 }
 .home-grid {
     display: grid;
     grid-template-columns: 970px 1fr 1fr;
     margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #b3e24d;
 }
 .question1 {
     width: 290px;
+    border: 5px outset blue;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px aliceblue;
+}
+.question1:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .question2 {
     width: 290px;
+    border: 5px outset blue;
+    transition: transform .5s;
+}
+.question2:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 #questions {
     display: grid;
@@ -57,6 +88,7 @@ nav a:hover {
 }
 #initial h3 {
     margin: 10px;
+    color:#0000cd;
 }
 #questions h2 {
     font-size: 15px;
@@ -64,6 +96,9 @@ nav a:hover {
 section h3 {
     display: grid;
     grid-column: 2/3;
+}
+h3 {
+    color:#6ab143;
 }
 footer {
     display: grid;
@@ -75,4 +110,12 @@ footer {
     display: flex;
     justify-content: flex-end;
     padding: 0px 80px;
+}
+.plan_image {
+    box-shadow: 5px 5px 3em #333533;
+    border-style:double;
+    border-radius: 10px;
+}
+h2 {
+    color: #0000cd;
 }
