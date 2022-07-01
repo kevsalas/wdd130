@@ -1,0 +1,78 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Palanquin+Dark&display=swap');
+
+body {
+    background-color: lavender;
+}
+
+.logo {
+    width: 180px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: moccasin;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+nav a {
+    text-align: center;
+    padding: 75px;
+}
+nav a:hover {
+    background-color: aqua;
+}
+#page_name {
+    text-align: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 970px 1fr 1fr;
+    margin-top: 100px;
+}
+.question1 {
+    width: 290px;
+}
+.question2 {
+    width: 290px;
+}
+#questions {
+    display: grid;
+    padding: 50px;
+}
+#initial {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 50px;
+    align-content: center;
+}
+#initial h3 {
+    margin: 10px;
+}
+#questions h2 {
+    font-size: 15px;
+}
+section h3 {
+    display: grid;
+    grid-column: 2/3;
+}
+footer {
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: center;
+    background-color: bisque;
+}
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 80px;
+}
