@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Palanquin+Dark&display=swap');
+
+body {
+    background-color: #26b3d3;
+}
+
+.logo {
+    width: 180px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: moccasin;
+    font-family: "Kdam Thmor Pro","Helvetica","sans-serif";
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+h1 {
+    font-family: "Kdam Thmor Pro", "Helvetica", "sans-serif";
+    color: #b3e24d;
+}
+p {
+    font-family: "Palanquin Dark", "Helvetica", "sans-serif";
+    color: #b3e24d;
+}
+nav a {
+    text-align: center;
+    padding: 75px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: aqua;
+}
+#page_name {
+    text-align: center;
+    font-size: 30px;
+}
+#page_name p {
+    display: grid;
+    font-size: 25px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+}
+.image1 {
+    display: grid;
+    width: 535px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.image2 {
+    width: 535px;
+}
+#text_list {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#main_p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 200px 0px;
+}
+/* Here goes the footer, don't confuse */
+footer {
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: center;
+    background-color: bisque;
+}
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 80px;
+}
