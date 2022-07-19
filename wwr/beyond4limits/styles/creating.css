@@ -63,19 +63,18 @@ nav a:hover {
     grid-column: 1/2;
     margin: -270px 50px;
     grid-row: 1/2;
-    width: 400px;
+    width: 300px;
 }
 #p2 {
     display: grid;
     grid-column: 1/2;
-    width: 400px;
-    height: 370px;
+    width: 300px;
     padding: 0 55px;
 }
 #p3 {
     display: grid;
     grid-column: 2/3;
-    width: 400px;
+    width: 300px;
     padding: 0 55px;
 }
 #p4 {
@@ -83,13 +82,12 @@ nav a:hover {
     grid-column: 3/4;
     margin: -265px 70px;
     grid-row: 1/2;
-    width: 400px;
+    width: 300px;
 }
 #p5 {
     display: grid;
     grid-column: 3/4;
-    width: 400px;
-    height: 370px;
+    width: 300px;
     padding: 0 75px;
 }
 /* .home-grid h3 {
