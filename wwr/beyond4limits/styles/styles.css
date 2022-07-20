@@ -51,9 +51,10 @@ nav a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 970px 1fr 1fr;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    margin: 100px 50px;
     background-color: #b3e24d;
 }
 .question1 {
@@ -80,9 +81,6 @@ nav a:hover {
     padding: 50px;
 }
 #initial {
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/2;
     padding: 50px;
     align-content: center;
 }
@@ -115,6 +113,8 @@ footer {
     box-shadow: 5px 5px 3em #333533;
     border-style:double;
     border-radius: 10px;
+    max-width: 80%;
+    margin: 110px 50px;
 }
 h2 {
     color: #0000cd;
