@@ -41,6 +41,7 @@ nav a:hover {
 }
 /* !!!!!! */
 /* Add some space between list and green text. */
+
 /* !!!!!! */
 /* More space between the edges. */
 #page_name {
@@ -85,6 +86,7 @@ nav a:hover {
     display: grid;
     grid-column: 2/3;
     grid-row: 1/2;
+    margin: 50px 0;
 }
 /* Here goes the footer, don't confuse */
 footer {

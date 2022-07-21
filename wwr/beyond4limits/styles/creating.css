@@ -108,3 +108,10 @@ footer {
     justify-content: flex-end;
     padding: 0px 80px;
 }
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    /* Add margin to the #text_list */
+}

@@ -52,8 +52,6 @@ nav a:hover {
 .home-grid {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
     margin: 100px 50px;
     background-color: #b3e24d;
 }
@@ -118,4 +116,11 @@ footer {
 }
 h2 {
     color: #0000cd;
+}
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    /* Add margin to the #text_list */
 }
